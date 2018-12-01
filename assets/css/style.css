@@ -1,0 +1,25 @@
+.jumbotron{
+margin-left: 100px;
+margin-right: 100px;
+text-align: center;
+background: teal;
+color: white;
+
+}
+
+body{
+    background: rgb(237, 238, 238);
+}
+
+.card-md-4{
+    BACKGROUND: white;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.time{
+    text-align: center;
+
+}
+

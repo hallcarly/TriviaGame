@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trivia Quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Trivia Quiz</h1>
+  <p>Let's do this!</p>
+  Time Remaining:  <span id="time">60</span> Seconds     
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="card-md-4">
+      <h3>What inland U.S. state has the longest shoreline?</h3><hr>
+        <div class="radio">
+          <label><input type="radio" name="q1" value="a">Oklahoma</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="q1" value="b">Wisconsin</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="q1" value="c">Michigan</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="q1" value="d">Illinois</label>
+          </div>
+      </div>
+      <div class="card-md-4">
+          <h3>Which famous toy manufacturer is also the world’s largest tire manufacturer by units produced?</h3><hr>
+            <div class="radio">
+              <label><input type="radio" name="q2" value="a">Mattel</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="q2" value="b">Lego</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="q2" value="c">Fisher-Price</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="q2" value="d">Hot-Wheels</label>
+              </div>
+          </div>
+          <div class="card-md-4">
+              <h3>What is the color of Underdog’s cape?</h3><hr>
+                <div class="radio">
+                  <label><input type="radio" name="q3" value="a">Red</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="q3" value="b">Blue</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="q3" value="c">Yellow</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="q3" value="d">Green</label>
+                  </div>
+              </div>
+                             
+              <div class="card-md-4 results">
+                  <button type="button" class="btn btn-secondary submit">Submit</button><hr>
+                  <p class ="answers"> The correct answers are:<br>
+                  Michigan, Lego, Blue<br>
+                Great job!</p>
+              </div>
+  </div>
+</div>
+
+</body>
+</html>
+
